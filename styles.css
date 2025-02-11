@@ -36,6 +36,16 @@ body {
     font-weight: 400;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: pink;
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
