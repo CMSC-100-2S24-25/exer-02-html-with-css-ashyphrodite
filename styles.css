@@ -27,8 +27,9 @@
 /* end of font import */
 
 html, body {
-    width: 100vw;
+    width: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -46,6 +47,8 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: pink;
 }
+
+/* header styles */
 
 .header-wrapper {
     display: flex;
@@ -69,6 +72,8 @@ a:hover {
     padding: 10px;
 }
 
+/* intro styles */
+
 .front-container {
     height: 450px;
     background-color: orange;
@@ -81,7 +86,7 @@ a:hover {
     display: flex;
     width: 60%;
     height: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -119,6 +124,38 @@ a:hover {
 
 .intro-subtitle a {
     display: inline-block;
+}
+
+/* about styles */
+
+.about-container {
+    height: auto;
+    background-color: #FFECCC;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-paragraph {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.span-bold {
+    font-weight: 700;
+}
+
+.span-underline {
+    text-decoration: underline;
+    text-decoration-color: #00826e;
+    text-decoration-thickness: 3px;
 }
 
 /* * {
