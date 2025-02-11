@@ -25,3 +25,35 @@
 }
 
 /* end of font import */
+
+html, body {
+    width: 100vw;
+    margin: 0;
+}
+
+body {
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    font-size: 30px;
+    background-color: #1d1f20;
+    color: white;
+}
+
+.main-logo {
+    font-weight: 700;
+}
+
+.nav-links {
+    height: auto;
+    padding: 10px;
+}
+
+.main-logo, .nav-links > span {
+    padding: 10px;
+}
