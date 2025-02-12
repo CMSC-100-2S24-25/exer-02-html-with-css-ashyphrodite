@@ -130,14 +130,14 @@ a:hover {
 
 .about-container {
     height: auto;
-    background-color: #FFECCC;
+    background-color: #FFFFCC;
     padding: 35px 0;
     display: flex;
     justify-content: center;
 }
 
 .about-content {
-    max-width: 60%;
+    width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -158,7 +158,60 @@ a:hover {
     text-decoration-thickness: 3px;
 }
 
-/* * {
+/* projects styles */
+
+.projects-container {
+    height: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-content {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects-content-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-item {
+    background-color: #563227;
+    margin: 5px;
+    width: calc(50% - 10px);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.project-item-date {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.project-item-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.project-item-link {
+    font-size: 12px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+* {
     box-sizing: border-box;
-    outline: 1px solid lime;
-} */
+    /* outline: 1px solid lime; */
+}
